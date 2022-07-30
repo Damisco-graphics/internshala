@@ -16,7 +16,7 @@ import './body.css';
 import { useState } from 'react';
 import Popup from './pp.jsx';
 import Signin from './signin.jsx'
-
+import footer from './footer.jsx';
 
 
 
@@ -43,7 +43,7 @@ function Crecard(Details) {
 }
 
 
-function App() {
+ function App() {
  
   const [isOpen, setIsOpen] = useState(false);
  
@@ -70,10 +70,10 @@ function App() {
           {Details.map(Crecard)}
           </div>      
           {afterlogin()}
-          
+          {Signin()}
         </div>
 
-      {Signin()}
+      
 <button onClick={togglePopup}>Click to open popup</button>
          {isOpen && <Popup
          handleClose={togglePopup}
@@ -87,20 +87,9 @@ content={<div>
 </div>}
 />
          }
-
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         
       </header>
+      {footer()}
     </div>
 
   );

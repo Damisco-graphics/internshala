@@ -73,14 +73,9 @@
 .DropContain {
   display: flex;
   position: relative;
-  /* float: right; */
-  /* justify-content: space-between; */
   justify-content: right;
-
-  /* margin-left: 650px; */
   margin-top: -35px;
   margin-bottom: 5px;
-  /* justify-items: baseline; */
   margin-left: 50%;
 }
 
@@ -91,7 +86,7 @@ button {
 .afterloginCard {
   position: relative;
   width: 20rem;
-  height: max-content;
+  height: min-content;
   margin-right: 10%;
   display: flex;
   flex-direction: column;
@@ -101,6 +96,7 @@ button {
   justify-content: space-between;
   color: black;
   font-size: large;
+  background-color: white;
 }
 
 /* .newd {
@@ -200,36 +196,13 @@ t5 {
   font-size: 20px;
 }
 
-/* .modal {
-  font-size: 12px;
-}
-.modal > .header {
+#footer {
+  position: fixed;
   width: 100%;
-  border-bottom: 1px solid gray;
-  font-size: 18px;
-  text-align: center;
-  padding: 5px;
+  height: 60px;
+  line-height: 50px;
+  bottom: 0;
+  background-color: grey;
+  color: white;
+  border-top: 2px black solid;
 }
-.modal > .content {
-  width: 100%;
-  padding: 10px 5px;
-}
-.modal > .actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-}
-.modal > .close {
-  cursor: pointer;
-  position: absolute;
-  display: block;
-  padding: 2px 5px;
-  line-height: 20px;
-  right: -10px;
-  top: -10px;
-  font-size: 24px;
-  background: #ffffff;
-  border-radius: 18px;
-  border: 1px solid #cfcece;
-} */
