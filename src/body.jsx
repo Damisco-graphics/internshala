@@ -14,8 +14,8 @@ const group = <FontAwesomeIcon icon={faUserFriends} />
 
 const Image = () => {
     return (
-      <article className="article">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsm1wREhRFxDXYStVpdV6U0St8fh6rSqErHQ&usqp=CAU" className='card-pix' alt="background" />
+      <article className="article" id="compImage">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsm1wREhRFxDXYStVpdV6U0St8fh6rSqErHQ&usqp=CAU" className='card-pix' alt="background" width="inherit" />
         <span className="header">Computer Engineering
         <p className='msubtitle'>142,000 Computer engineers follow this</p></span>
       </article>
@@ -30,10 +30,10 @@ const Image = () => {
 
 function Body(){
     return (
-        <div>
-        <Navbar  bg="light" expand="sm">
+        <div id='bdy'>
+        <Navbar  bg="light" expand="sm & xs & xxs">
   <Container>
-    <Navbar.Brand href="#home">ATG.W🍀RLD</Navbar.Brand>   
+     <Navbar.Brand href="#home">ATG.W🍀RLD</Navbar.Brand>   
       <Form className="d-flex">
         <FormControl
           type="search"

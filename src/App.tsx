@@ -70,10 +70,10 @@ function Crecard(Details) {
           {Details.map(Crecard)}
           </div>      
           {afterlogin()}
-          {Signin()}
+          
         </div>
-
-      
+        
+      <div id='pop'>
 <button onClick={togglePopup}>Click to open popup</button>
          {isOpen && <Popup
          handleClose={togglePopup}
@@ -87,6 +87,7 @@ content={<div>
 </div>}
 />
          }
+         </div>
          
       </header>
       {footer()}

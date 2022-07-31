@@ -18,7 +18,7 @@ function Crd(props){
         <div className="CrdContainer" key={props.id} >  
    <Container className='p-4' >  
   <Col md="4"></Col>
-    <Card style={{ width: '50rem'}} bg="grey">
+    <Card className="myCrd" style={{ width: '50rem'}} bg="grey">
   <Card.Img variant="top" src={props.img} />
   <Card.Body style={{color:"black"}} >
   <Card.Text className="category">
