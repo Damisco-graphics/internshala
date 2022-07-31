@@ -91,7 +91,7 @@ button {
 .afterloginCard {
   position: relative;
   /* width: 50px; */
-  min-width: 20%;
+  min-width: 10rem;
   max-width: 30%;
 
   height: min-content;
@@ -117,11 +117,13 @@ button {
 } */
 
 .Noida {
+  display: flex;
   border-bottom: 2px solid #b8b8b8;
+  justify-content: space-between;
 }
 
 t3 {
-  margin-right: 150px;
+  margin-left: inherit;
 }
 
 t4 {
@@ -224,8 +226,8 @@ t5 {
 #footer {
   position: absolute;
   min-width: 100%;
-  height: 60px;
-  line-height: 50px;
+  min-height: 100px;
+  line-height: 100px;
   margin-bottom: 0;
   background-color: grey;
   color: white;
