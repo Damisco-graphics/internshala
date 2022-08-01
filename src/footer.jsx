@@ -1,12 +1,17 @@
 import React from 'react';
 
-import './body.css'
 
+import './body.css'
+import myImage from "./instagram_icon.png"
 
 function footer(){
     return (
     <div id='footer'>
-Copyright© 2022
+    <div style={{marginRight:"20%", marginLeft: "2%"}}>
+    <img style={{width:"2rem", height:"2rem"}} src={myImage} alt="instagram icon"/> damisco_creations
+
+    </div>
+    Copyright© 2022
     </div>
     )
 }

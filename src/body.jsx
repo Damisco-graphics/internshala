@@ -31,9 +31,12 @@ const Image = () => {
 function Body(){
     return (
         <div id='bdy'>
-        <Navbar style={{borderBottom: "3px solid grey", borderTop:"2px solid grey"}} fixed='top'   bg= "white" expand="sm && xs && xxs ">
+        <Navbar collapseOnSelect className="gap-3 px-3 flex-grow-2 justify-content-evenly" style={{height:"90px" , fontSize:"1rem" ,justifyContent:"space-between", borderBottom: "3px solid grey", borderTop:"2px solid grey"}} fixed='top'   bg= "white" expand="md">
   <Container>
-     <Navbar.Brand href="#home">ATG.W🍀RLD</Navbar.Brand>   
+     <Navbar.Brand style={{ fontSize:"1.2rem" ,marginRight: "55%"}} href="#home">ATG.W🍀RLD</Navbar.Brand>   
+     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse style={{backgroundColor:"white", justifySelf:"left"}} id="responsive-navbar-nav">
+        <Nav className="mr-auto">
       <Form className="d-flex">
         <FormControl
           type="search"
@@ -45,6 +48,8 @@ function Body(){
       <Navbar.Text>
     Create account <a href='#home'>It's free</a>
   </Navbar.Text>    
+  </Nav>
+      </Navbar.Collapse>
   </Container>
 </Navbar>
 

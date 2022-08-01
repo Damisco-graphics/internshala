@@ -226,10 +226,12 @@ t5 {
 
 #footer {
   position: absolute;
+  display: flex;
   min-width: 100%;
   min-height: 100px;
   line-height: 100px;
   margin-bottom: 0;
+  /* justify-content: center; */
   background-color: grey;
   color: white;
   border-top: 2px black solid;
