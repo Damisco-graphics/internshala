@@ -95,7 +95,7 @@ button {
   min-width: 10rem;
   max-width: 30%;
 
-  height: min-content;
+  height: fit-content;
   margin-right: 5%;
   margin-left: 0;
   display: flex;
