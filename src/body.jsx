@@ -31,7 +31,7 @@ const Image = () => {
 function Body(){
     return (
         <div id='bdy'>
-        <Navbar  bg="light" expand="sm & xs & xxs">
+        <Navbar  bg="light" expand="sm && xs && xxs ">
   <Container>
      <Navbar.Brand href="#home">ATG.W🍀RLD</Navbar.Brand>   
       <Form className="d-flex">

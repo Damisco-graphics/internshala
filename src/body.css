@@ -6,6 +6,7 @@
 #bdy {
   position: relative;
   right: 0;
+  width: 100%;
 }
 
 .article {
@@ -32,12 +33,12 @@
 
 .msubtitle {
   position: relative;
-  width: 652px;
+  width: 60%;
   height: 25px;
   font-family: "IBM Plex Sans";
   font-style: oblique;
   margin-left: 30%;
-  font-size: 23px;
+  font-size: 1.5rem;
   line-height: 134.17%;
   left: 3%;
   color: white;
@@ -109,12 +110,12 @@ button {
   overflow: hidden;
 }
 
-/* .newd {
+.newd {
   align-items: center;
   display: flex;
   flex-direction: row;
-  min-width: inherit;
-} */
+  min-width: fit-content;
+}
 
 .Noida {
   display: flex;
