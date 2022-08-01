@@ -31,7 +31,7 @@ const Image = () => {
 function Body(){
     return (
         <div id='bdy'>
-        <Navbar fixed='top'  bg="light" expand="sm && xs && xxs ">
+        <Navbar style={{borderBottom: "3px solid grey", borderTop:"2px solid grey"}} fixed='top'   bg= "white" expand="sm && xs && xxs ">
   <Container>
      <Navbar.Brand href="#home">ATG.W🍀RLD</Navbar.Brand>   
       <Form className="d-flex">
