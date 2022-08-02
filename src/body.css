@@ -232,7 +232,8 @@ t5 {
   line-height: 100px;
   margin-bottom: 0;
   justify-content: space-between;
-  padding-right: 2%;
+  padding-right: 0.5%;
+  padding-left: 0.5%;
   background-color: grey;
   color: white;
   border-top: 2px black solid;
