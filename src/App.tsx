@@ -75,14 +75,13 @@ function Crecard(Details) {
         
       <div id='pop'>
 <button onClick={togglePopup}>Click to open popup</button>
-         {isOpen && <Popup
+         {!isOpen && <Popup
          handleClose={togglePopup}
 content={<div>
   <h2>Welcome to my blog</h2>
-  <p>This is the sample content for my popup.
-    <code> Contact </code> me at
-    @damilolaadebayo@gmail.com
-    +2348134274863
+  <p>Kindly view either on a 
+    <code> PC </code> or on a <code>mobile device with Desktop mode activated </code> 
+  Thanks!  
   </p>
 </div>}
 />

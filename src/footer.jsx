@@ -12,7 +12,7 @@ function footer(){
     <div>
     <img style={{width:"2rem", height:"2rem"}} src={instagram} alt="instagram icon"/> damisco_creations
         </div>
-        <div style={{lineHeight:"150px"}}>
+        <div>
     Copyright© 2022
     </div>
     <div style={{float:"right"}}>

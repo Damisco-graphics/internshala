@@ -169,7 +169,7 @@ t5 {
 /* Popup style */
 .popup-box {
   position: fixed;
-
+  margin-top: 0;
   background: #00000050;
   width: 100%;
   height: 100vh;
@@ -181,16 +181,19 @@ t5 {
   position: relative;
   width: 50%;
   margin: 0 auto;
+
+  color: black;
   height: auto;
   min-height: 300px;
-  margin-top: calc(100vh - 85vh - 20px);
-  background-color: #d4c144;
-  background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+  top: calc(100vh - 80vh - 0px);
+  background-color: #d2e1ee;
+  /* background-image: url("https://www.transparenttextures.com/patterns/argyle.png"); */
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   border-radius: 4px;
   padding: 20px;
+  padding-top: 50px;
   border: 1px solid #999;
-  border-radius: 5%;
+  border-radius: 3%;
   overflow: auto;
 }
 
@@ -198,8 +201,8 @@ t5 {
   content: "x";
   cursor: pointer;
   position: fixed;
-  right: calc(25% - 10px);
-  top: calc(100vh - 85vh - 33px);
+  right: calc(25% - 7px);
+  top: calc(100vh - 80vh - 10px);
   background: #ededed;
   width: 25px;
   height: 25px;
@@ -218,7 +221,8 @@ t5 {
 }
 
 #pop {
-  position: fixed;
+  /* position: absolute; */
+
   bottom: 15px;
   background-color: inherit;
   color: white;
@@ -229,11 +233,11 @@ t5 {
   display: flex;
   min-width: 100%;
   min-height: 100px;
-  line-height: 80px;
+  line-height: 100px;
   margin-bottom: 0;
   justify-content: space-between;
-  padding-right: 0.5%;
-  padding-left: 0.5%;
+  padding-right: 1%;
+  padding-left: 1%;
   background-color: grey;
   color: white;
   border-top: 2px black solid;

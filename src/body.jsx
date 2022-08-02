@@ -31,9 +31,9 @@ const Image = () => {
 function Body(){
     return (
         <div id='bdy'>
-        <Navbar collapseOnSelect className="gap-3 px-3 flex-grow-2 justify-content-spaceBetween" style={{height:"90px" , fontSize:"1rem" ,justifyContent:"space-between", borderBottom: "3px solid grey", borderTop:"2px solid grey"}} fixed='top'   bg= "white" expand="lg">
+        <Navbar collapseOnSelect className="gap-3 px-3 flex-grow-2 justify-content-spaceBetween" style={{height:"70px" , fontSize:"1rem" ,justifyContent:"space-between", borderBottom: "3px solid grey", borderTop:"2px solid grey"}} fixed='top'   bg= "white" expand="lg">
   <Container>
-     <Navbar.Brand className="Brand" style={{ fontSize:"1.2rem" ,marginRight: "30%"}} href="#home">ATG.W🍀RLD</Navbar.Brand>   
+     <Navbar.Brand className="Brand" style={{ fontSize:"2rem" ,marginRight: "30%" , lineHeight:"50%" }} href="#home">ATG.W🍀RLD</Navbar.Brand>   
      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse style={{backgroundColor:"white", justifySelf:"left"}} id="responsive-navbar-nav">
         <Nav className="mr-auto">
