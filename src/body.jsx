@@ -31,7 +31,7 @@ const Image = () => {
 function Body(){
     return (
         <div id='bdy'>
-        <Navbar collapseOnSelect className="gap-3 px-3 flex-grow-2 justify-content-spaceBetween" style={{height:"90px" , fontSize:"1rem" ,justifyContent:"space-between", borderBottom: "3px solid grey", borderTop:"2px solid grey"}} fixed='top'   bg= "white" expand="md">
+        <Navbar collapseOnSelect className="gap-3 px-3 flex-grow-2 justify-content-spaceBetween" style={{height:"90px" , fontSize:"1rem" ,justifyContent:"space-between", borderBottom: "3px solid grey", borderTop:"2px solid grey"}} fixed='top'   bg= "white" expand="lg">
   <Container>
      <Navbar.Brand className="Brand" style={{ fontSize:"1.2rem" ,marginRight: "30%"}} href="#home">ATG.W🍀RLD</Navbar.Brand>   
      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -57,10 +57,10 @@ function Body(){
         
         <Nav className='newd' variant='tabs' defaultActiveKey="/home" as="ul">
   <Nav.Item as="li">
-    <Nav.Link href="/home">All Posts(132)</Nav.Link>
+    <Nav.Link eventKey="link-1" href="/home">All Posts(132)</Nav.Link>
   </Nav.Item>
   <Nav.Item as="li">
-    <Nav.Link eventKey="link-1">Article</Nav.Link>
+    <Nav.Link eventKey="link-2">Article</Nav.Link>
   </Nav.Item>
   <Nav.Item as="li">
     <Nav.Link eventKey="link-2" disabled>Event</Nav.Link>

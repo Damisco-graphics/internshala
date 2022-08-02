@@ -9,11 +9,11 @@ import whatsapp from "./whatsapp_icon.png"
 function footer(){
     return (
     <div id='footer'>
-    <div style={{marginRight:"5%", marginLeft: "2%"}}>
+    <div style={{marginLeft: "2%"}}>
     <img style={{width:"2rem", height:"2rem"}} src={instagram} alt="instagram icon"/> damisco_creations
         </div>
     Copyright© 2022
-    <div style={{marginRight:"2%", marginLeft: "5%"}}>
+    <div style={{right:"2%", float:"right"}}>
     <img style={{width:"2rem", height:"2rem"}} src={whatsapp} alt="instagram icon"/> +2348134274863
     </div>
     </div>
