@@ -229,7 +229,7 @@ t5 {
   display: flex;
   min-width: 100%;
   min-height: 100px;
-  line-height: 100px;
+  line-height: 80px;
   margin-bottom: 0;
   justify-content: space-between;
   padding-right: 0.5%;
